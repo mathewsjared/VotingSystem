@@ -6,10 +6,10 @@ function Root(){ // ---
 
 }
 
-function Entity(){ // <-> Decision
+function Entity(age){ // <-> Decision
     // Internals
       // Age ( < Integer > )
-  var age;
+  var age = age;
       // Decisions
   var decisions = {
         // Current ( { Decision } )
