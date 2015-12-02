@@ -45,7 +45,7 @@ function Member(tag){ // <- Entity
 function Population(){ // <- Entity
     // Internals
       // Members ( { < Member > } )
-  var members = [];
+  var members = {};
 
     // Interface
   return {};
